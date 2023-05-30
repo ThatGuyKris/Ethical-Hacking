@@ -1,31 +1,53 @@
 ## OSI Model ##
 
-There are seven layers to the OSI Model. These include the following:
+# NIC (Network Interface Controller)
+- Also referred to as "Network Adapter", "LAN Adapter", and "Network Interface Card".
+- NIC is the computer hardware component that connects a computer to a computer network. 
+- Both a "Physical" layer and "Data Link" layer device. 
+- This is because it provides physical access to a networking medium and, for IEEE 802 and similiar networks, provides a low-level addressing 
+    system through the use of MAC addresses that are uniquely assigned to network interfaces.
 
-In Descending Order:
-    7. Application
-    6. Presentation
-    5. Session
-    4. Transport
-    3. Network 
-    2. Data Link 
-    1. Physical 
+# Information About The OSI Layer Model
+- Each Layer is separate, and largely independent of the other layers. 
 
-Layer 7: Application
-- The layer in the OSI model that is closest to the end user. 
-- It recieves information directly from the user and dsiplays incoming data to the user. 
-- Ironically, applications themselves do not reside in the application layer. 
-    - Instead, it facilitates communication through lower layers to establish connections with applications at the other end. 
-- Web browsers, TelNet, and FTO are examples of communications that rely on layer 7. 
+# The OSI Layer System
 
-Layer 6: Presentation
+1. Physical Layer
+- Consist of tools and resources that you can touch with your hands like cables and wires. 
 
-Layer 5: Session 
+2. Data Link Layer
+- Responsible for reliable transmission of data frames between connected nodes. 
+- Primarily consist of Media Access Control (MAC address) and Logical Link Control (LLC)
 
-Layer 4: Transport
+3. Network Layer
+- Basically the IP Address Layer. 
+- Interested in getting the traffic from the source to the destination. 
 
-Layer 3: Network 
+4. Transport Layer
+- Transmits data using transmission protocols like TCP (Transmission Control Protocol) and UDP (User Datagram Protocol).
+- Ports also reside mainly in this layer.
 
-Layer 2: Data Link
+5. Session Layer
+- In layer 4, you determine which method of speaking is used, such as TCP or UDP, and layer 5 is where the conversation takes place. 
+- The opening, closing, and managing of the conversation is achieved at layer 5. 
 
-Layer 1: Physical
+6. Presentation Layer
+- In short, this layer has to do with file types. 
+- Once the conversation in layer 5 is established, and a file is downloaded from the web server, that file type is how the data is presented to the computer.
+- Examples include JPEG, MOV, PDF, and PNG. 
+
+7. Application Layer
+- Not to be confused with actual applications like Firefox and Google Chrome, we are talking about the protocols that the applications use.
+- Think along the lines of what bridges the gap between the application and the network. 
+    - You open a browser and what does it use? HTTP/HTTPS
+    - You send an eMail from Outlook and what does it use? IMAP? POP3/SMTP?
+
+# Acronym For The OSI Layer Model
+
+All (Application) 
+People (Presentation)
+Seem (Session)
+To (Transport)
+Need (Network)
+Data (Data Link)
+Processing (Physical)

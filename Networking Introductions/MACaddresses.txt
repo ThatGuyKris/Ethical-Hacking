@@ -1,0 +1,11 @@
+## Mac Address ##
+
+MAC Address stands for Media Access Control
+- When doing ifconfig on Kali Linux, it is identified as the ether (below inet and inet6).
+- MAC addresses are important because they are how we communicate over switches. They are also how you identify devices.
+- We can think of it as the way that we communicate when using switches. 
+
+If you were unsure about the host name or device name of a device, you can use the MAC Address and a MAC Address lookup to help identify the device. 
+
+MAC Address Example
+- 
