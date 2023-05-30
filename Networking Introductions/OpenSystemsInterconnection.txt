@@ -1,0 +1,31 @@
+## OSI Model ##
+
+There are seven layers to the OSI Model. These include the following:
+
+In Descending Order:
+    7. Application
+    6. Presentation
+    5. Session
+    4. Transport
+    3. Network 
+    2. Data Link 
+    1. Physical 
+
+Layer 7: Application
+- The layer in the OSI model that is closest to the end user. 
+- It recieves information directly from the user and dsiplays incoming data to the user. 
+- Ironically, applications themselves do not reside in the application layer. 
+    - Instead, it facilitates communication through lower layers to establish connections with applications at the other end. 
+- Web browsers, TelNet, and FTO are examples of communications that rely on layer 7. 
+
+Layer 6: Presentation
+
+Layer 5: Session 
+
+Layer 4: Transport
+
+Layer 3: Network 
+
+Layer 2: Data Link
+
+Layer 1: Physical
