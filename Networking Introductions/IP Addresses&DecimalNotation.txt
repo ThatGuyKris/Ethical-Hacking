@@ -2,32 +2,32 @@
 
 ## Using Kali Linux Terminal ##
 
-# Decimal Notation
+# Decimal Notation 
 128 64 32 16 8 4 2 1
  0  0  0  0  0 1 1 1 = 7.7.7.7
     - 7.7.7.7 is really 00000111.00000111.00000111.00000111
 So, 192.168.1.1 is really 110000000.10101000.00000001.00000001
 
-# IP Addresses
+## IP Addresses ##
 
 IPv4 and IPv6 addresses are layer 3 protocols. Layer 3 is a router. So, when we route traffic, we route via an IP address. 
 
-inet (IPv4)
+# inet (IPv4)
 - Syntax is in decimal notation.
 - Most common used format today. 
 - Made up of 32 bits, which equals four bytes.
     - 192.168.57.139 (Each section consist of 8 bits)
 - IPv4 has been around for a long time, and has long since run out of addresses. There were over four billion addresses, and we have long since run out of ip address space.
 
-inet6 (IPv6) 
+# inet6 (IPv6) 
 - Syntax is in hexadecimal notation.
 - 128 bits
 - IPv6 came from a necessity. There was a need for many more IP addresses, and now we have trillions.
 
-NAT (Network Address Translation)
+# NAT (Network Address Translation)
 - Anything that starts with 192.168 is a private IP Address that is only known to me. 
 
-Private IP Addresses
+# Private IP Addresses
 - Consist of classes A, B, and C.
 - Class C 
     - What the most common household and small business use. 
