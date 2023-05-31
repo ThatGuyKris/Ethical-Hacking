@@ -1,0 +1,25 @@
+## Transport Layer (TCP and UDP)
+
+TCP
+- TCP is a network protocol used by computers to communicate. 
+- It is one of the fundamental protocals that makes the internet work.
+
+TCP Advantages
+-
+
+TCP Disadvantages
+-
+
+UDP
+- UDP is a network protocol used by computers to communicate. 
+- One of the fundamental protocols that allow the internet to work. 
+
+UDP Advantages
+- No connection needs to be established to send or receive data, so apps and operating systems work faster. 
+- It endures packet loss, and will deliver data even if it is incomplete or contains an error. 
+- Multicast Transmission: One UPD transmission can send data to multiple recipients. 
+
+UDP Disadvantages
+- Since it doesn't use a connection, transferring data is typically unreliable. 
+- It has no error control, so it drops packets when errors are detected. 
+- Multiple users accepting UDP data can cause congestion. 
