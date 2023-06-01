@@ -23,3 +23,7 @@ UDP Disadvantages
 - Since it doesn't use a connection, transferring data is typically unreliable. 
 - It has no error control, so it drops packets when errors are detected. 
 - Multiple users accepting UDP data can cause congestion. 
+
+TL;DR
+- TCP calls you to say it's sending you a postcard, sends the postcard, then asks if you got it alright before hanging up the phone (resending, if necessary).
+- UDP just sends you the postcard.
